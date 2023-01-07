@@ -1,17 +1,14 @@
-/* Todos elementos */ /* */
 *{
     margin: 0;
     padding: 0;
 }
 
-/* Elementos "titulo" */
 #titulo{
     font-family: sans-serif;
     color: #380861;
     margin-left: 7%
 }
 
-/* Elementos "subtitulo" */
 #subtitulo {
     font-family: sans-serif;
     color: #380861;
@@ -22,12 +19,10 @@
     display: inline-block;
 }
 
-/* Elementos fieldset*/
 fieldset{
     border:0;
 }
 
-/* Elementos body */
 body{
     background-color: #F0F8FF;
     font-family: sans-serif;
@@ -38,7 +33,6 @@ body{
     justify-content: center;
 }
 
-/* Elementos imput, select, textarea e button*/
 input, select, textarea, button{
     font-family: sans-serif;
     font-size: 1em;
@@ -46,35 +40,29 @@ input, select, textarea, button{
     border-radius: 5px;
 }
 
-/* Elementos de classe "grupo" nos estados das pseudoclasses "before" e "after" */
 .grupo:before, .grupo:after {
     display: table;
 }
 
-/* Elementos de classe "grupo" no estado da pseudoclasse "after" */
 .grupo:after {
     clear: both;
 }
 
-/* Elementos classe "campo" */
 .campo{
     margin-bottom: 1em; 
 }
 
-/* Elementos classe "campo" tag "label" */
 .campo label{
     margin-bottom: 0.2em;
     color: #59429d;
     display: block; 
 }
 
-/* Elementos classe "campo" tag "fieldset" */
 fieldset.grupo .campo{
     float: left;
     margin-right:1em;
 }
 
-/* Elementos classe "campo" tag "input" */
 .campo input[type="text"], .campo input[type="email"], .campo select, campo textarea {
     padding: 0.2em;
     border: 1px solid #59429d;
@@ -82,17 +70,14 @@ fieldset.grupo .campo{
     display: block; 
 }
 
-/* Elementos classe "campo" tag "select e option" */
 .campo select option{
     padding-right:1em;
 }
 
-/* Elementos classe "campo" tag "inout" pseudoclasse "focus" */
 .campo input:focus, .campo select:focus, .campo textarea:focus{
     background: #E0E0F8;
 }
 
-/* Elementos classe "botao" */
 .botao{
     font-size: 1.2em;
     background: #59429d;
@@ -104,19 +89,17 @@ fieldset.grupo .campo{
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
     position: absolute;
     top: 86%;
-    left: 40%;
+    left: 43%;
     margin-right: 50%;
     transform: translate(-50%, -50%); 
 }
 
-/* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
 .botao:hover {
     background: #CCBBFF;
     box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: none;
 }
 
-/* Elementos de classe botão e de tag <select> */
 .botao, select{
     cursor: pointer;
 }
