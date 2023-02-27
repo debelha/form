@@ -2,7 +2,7 @@
 <html>
 
     <head>
-      
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" type="text/css" href="/assets/style.css" media="screen">
@@ -22,23 +22,23 @@
 
             <fieldset class="group">
 
-                <div class="campo">
-                    <label for="nome"><strong>Name</strong></label>
-                    <input type="text" name="nome" id="nome" required>
+                <div class="field">
+                    <label for="name"><strong>Name</strong></label>
+                    <input type="text" name="name" id="name" required>
                 </div>
 
-                <div class="campo">
-                    <label for="sobrenome"><strong>Last name</strong></label>
-                    <input type="text" name="sobrenome" id="sobrenome" required>
+                <div class="field">
+                    <label for="lastName"><strong>Last name</strong></label>
+                    <input type="text" name="lastName" id="lastName" required>
                 </div>
             </fieldset> 
 
-            <div class="campo">
+            <div class="field">
                 <label for="email"><strong>Email</strong></label>
                 <input type="email" name="email" id="email" required>
             </div>
 
-            <div class="campo">
+            <div class="field">
                 <label><strong>Which side of the application do you develop?</strong></label>
                 <label>
                     <input type="radio" name="devweb" value="frontend" checked>Front-end
@@ -51,43 +51,42 @@
                 </label>
             </div>
 
-            <div class="campo">
-                <label for="senioridade"><strong>Seniority</strong></label>
-                <select id="senioridade" required>
+            <div class="field">
+                <label for="seniority"><strong>Seniority</strong></label>
+                <select id="seniority" required>
                   <option selected disabled value="">Select</option>
                   <option>Junior</option>
-                  <option>Mid</option>
+                  <option>Middle</option>
                   <option>Senior</option>
                 </select>
             </div>
 
-            <fieldset class="grupo">
+            <fieldset class="fieldset">
                 <div id="check">
                     <label><strong>Choose your hard skills:</strong></label><br><br>
-                    <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
-                    <label for="tecnologia1"> HTML</label>
-                    <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
-                    <label for="tecnologia2"> CSS</label>
-                    <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
-                    <label for="tecnologia3"> JavaScript</label>
-                    <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP">
-                    <label for="tecnologia4"> PHP</label>
-                    <input type="checkbox" id="tecnologia5" name="tecnologia5" value="C#">
-                    <label for="tecnologia5"> C#</label>
-                    <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Python">
-                    <label for="tecnologia6"> Python</label>
-                    <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Java">
-                    <label for="tecnologia7"> Java</label>
+                    <input type="checkbox" id="tecnology1" name="tecnology1" value="HTML">
+                    <label for="tecnology1"> HTML</label>
+                    <input type="checkbox" id="tecnology2" name="tecnology2" value="CSS">
+                    <label for="tecnology2"> CSS</label>
+                    <input type="checkbox" id="tecnology3" name="tecnology3" value="JavaScript">
+                    <label for="tecnology3"> JavaScript</label>
+                    <input type="checkbox" id="tecnology4" name="tecnology4" value="PHP">
+                    <label for="tecnology4"> PHP</label>
+                    <input type="checkbox" id="tecnology5" name="tecnology5" value="C#">
+                    <label for="tecnology5"> C#</label>
+                    <input type="checkbox" id="tecnology6" name="tecnology6" value="Python">
+                    <label for="tecnology6"> Python</label>
+                    <input type="checkbox" id="tecnology7" name="tecnology7" value="Java">
+                    <label for="tecnology7"> Java</label>
                 </div>
             </fieldset>
 
-            <div class="campo">
+            <div class="field">
                 <br>
-                <label for="experiencia"><strong>Conte um pouco mais da sua experiência: </strong></label>
-                <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
-            </div>
-
-            <button class="botao" type="submit" onsubmit="">Concluído</button>            
+                <label for="experience"><strong>Tell about you experience: </strong></label>
+                <textarea rows="6" style="width: 26em" id="experience" name="experience"></textarea> 
+                <button class="button" type="submit" onsubmit="">Finish</button>
+            </div>           
 
         </form>
 
