@@ -1,2 +1,2 @@
-# Developers registration form
+# Formulário de registro de desenvolvedores
 
