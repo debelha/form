@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -80,19 +79,16 @@ fieldset.group .field{
 }
 
 .button{
+    width: 14rem;
     font-size: 1.2em;
     background: #59429d;
     border: 0;
-    margin-bottom: 1em;
+    margin-top: 1.4rem;
     color: #ffffff;
     padding: 0.1em 0.6em;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-    position: absolute;
-    top: 95%;
-    left: 38.3%;
-    margin-right: 40%;
-    transform: translate(-50%, -50%); 
+    /* transform: translate(-50%, -50%);  */
 }
 
 .button:hover {
@@ -104,3 +100,4 @@ fieldset.group .field{
 .button, select{
     cursor: pointer;
 }
+
