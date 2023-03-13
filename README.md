@@ -9,4 +9,4 @@ Agora com o front-end finalizado estou desenvovendo o back... volte daqui há um
 <br>
 <br> 
 ### Preview:
- <img align="center" alt="form preview" height="500" width="400" src="https://i.imgur.com/Q0zw5HF.png">
+ <img align="center" alt="form preview" height="500" width="400" src="https://i.imgur.com/hf4i4sB.png">
