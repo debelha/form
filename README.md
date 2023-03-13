@@ -9,8 +9,4 @@ Agora com o front-end finalizado estou desenvovendo o back... volte daqui há um
 <br>
 <br> 
 ### Preview:
-![image](https://user-images.githubusercontent.com/88196572/224519682-bff631fd-07e5-4388-9620-ab8d961690b5.png)
-
-
-
-
+ <img align="center" alt="form preview" height="500" width="400" src="https://i.imgur.com/Q0zw5HF.png">
